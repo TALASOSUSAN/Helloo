@@ -10,7 +10,7 @@
         android:id="@+id/etFirstName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="112dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="First Name"
@@ -36,7 +36,7 @@
         android:id="@+id/etpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="88dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Password"
@@ -47,26 +47,15 @@
 
     <Button
         android:id="@+id/btn"
-        android:layout_width="93dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="136dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.35"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etpassword" />
-
-    <TextView
-        android:id="@+id/etForgotPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Forgot Password"
+        android:layout_width="94dp"
+        android:layout_height="40dp"
+        android:text="Sign Up"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintHorizontal_bias="0.403"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn"
-        app:layout_constraintVertical_bias="0.694" />
+        app:layout_constraintTop_toBottomOf="@+id/etpassword"
+        app:layout_constraintVertical_bias="0.718" />
 
     <Button
         android:id="@+id/btnRegister"
@@ -75,5 +64,18 @@
         android:text="Register"
         tools:layout_editor_absoluteX="394dp"
         tools:layout_editor_absoluteY="1492dp" />
+
+    <EditText
+        android:id="@+id/etconfirmpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Confirm Paswssword"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etpassword" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
